@@ -4,6 +4,7 @@
 	<p>Pokemon Name: <%= @pokemon.name %></p>
 	<p>Pokemon Type: <%= @pokemon.poke_type %></p>
 	<p>Pokemon POWAH!: <%= @pokemon.cp %></p>
-	<p>Pokemon ID: <%= @pokemon.id %></p>				
+	<p>Pokemon ID: <%= @pokemon.id %></p>
+	<p>Trainer: <a href='/trainers/<%= @trainer.id %>'><%= @trainer.name %></a></p>					
 	<p><a href='/pokemons/<%= @pokemon.id %>/edit'>Edit This Pokemon</a></p>
 </div>
